@@ -1,0 +1,17 @@
+.formulario {
+	padding: 10px;
+	padding-top: 0;
+}
+.formulario__label, .formulario__input-txt, {
+	display: block;
+	width: 100%;
+}
+.formulario__input-txt {
+	padding: 10px;
+	margin-bottom: 10px;
+}
+.formulario__btn {
+	border:none;
+	cursor: pointer;
+	font-size: 1em;
+}

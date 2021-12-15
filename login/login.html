@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>Login | Aprender</title>
+	<link rel="stylesheet" type="text/css" href="css_login/estilo_login.css">	
+</head>
+<body>
+	<div class="login-box">
+		<img  class="avatar" src="img_login/perfil.jpg">
+		<h1>Iniciar Sesión</h1>
+		<form method="POST" action="login.php">
+			<label for="username">Nombre de usuario</label>
+			<input type="text" name="usuario" placeholder="Ingrese su usuario" required>
+
+			<label for="contrasena">Contraseña</label>
+			<input type="password" name="pass_user" placeholder="Ingrese su contraseña" required>
+			<input type="submit" name="btnlogin" value="Login">
+
+			<a href="">¿Olvidó su contraseña?</a> <br>
+			<a href="registro.html">¿No tiene una cuenta? Registrate</a>
+		</form>
+	</div>
+</body>
+</html>

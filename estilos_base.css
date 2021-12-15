@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;0,800;1,200;1,400;1,800&family=Pacifico&display=swap');
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+}
+
+/*-----------------------Estilos base----------------*/ 
+
+img {
+	display: block;
+	width: 100%;
+	max-width: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+}
+.container {
+	width: 100%;
+	margin: auto; 
+}
+.container--flex {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+.column {
+	width: 100%;
+}
+
+/*-----------------------Estilos Principales-----------------*/
+
+.group--color .container {
+	background: #DE423A;
+	color: white; 
+	padding: 10px;
+	text-align: center;
+}
+.main__title {
+	margin: 15px 0;
+	font-size: 1.8em;
+	font-family: 'Pacifico', cursive;
+	font-weight: 100; 
+}
+.column__title {
+	font-size: 1.3em;
+}
+.main__about__description .column:nth-child(2) {
+	padding: 10px;
+}
+.btn {
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	width: 120px; 
+	background: #DE423A;
+	color: white;
+	padding: 10px;
+	margin: 10px auto;
+}
+.group__title {
+	font-family: 'Pacifico', cursive;
+	text-align: center;
+	font-weight: 100;
+	font-size: 1.8em;
+	color: #DE423A;
+	margin: 30px;
+}
+.today-special .column {
+	margin-bottom: 30px; 
+	text-align: center;
+}
+.today-special__img {
+	margin: auto;
+	max-width: 350px;
+}
+.today-special__title {
+	font-size: 1.3em; 
+	padding-top: 10px;
+	padding-bottom: 20px; 
+}
+.today-special__price {
+	font-size: 1.5em;
+	color: #DE423A;
+	font-weight: bold;
+}

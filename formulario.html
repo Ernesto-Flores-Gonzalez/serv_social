@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Ficha Tutorado</title>
+	<link rel="stylesheet" type="text/css" href="formulario.css">
+</head>
+<body>
+	<div class="form-box">
+		<h1>Ficha de indetificación del tutorado</h1>
+		<form method="POST" action="">
+			<!-- Información del alumno -->
+			<label for="" class="formulario__label">Carrera: </label>
+			<input type="text" class="formulario__input-txt" name="">
+
+			<label for="" class="formulario__label">No. Control: </label>
+			<input type="text" class="formulario__input-txt" name="">
+
+			<label for="" class="formulario__label">Semestre: </label>
+			<input type="text" class="formulario__input-txt" name="">
+
+			<label for="" class="formulario__label">Apellido paterno: </label>
+			<input type="text" class="formulario__input-txt" name="">
+
+			<label for="" class="formulario__label">Apellido materno: </label>
+			<input type="text" class="formulario__input-txt" name="">
+
+			<label for="" class="formulario__label">Nombre(s): </label>
+			<input type="text" class="formulario__input-txt" name="">
+
+			<!-- sexo del tutorado-->
+			<label for="" class="formulario__label">Sexo:</label>
+
+			<input type="radio" id="" value="masculino" name="mm">Masculino
+			<input type="radio" id="" value="femenino" name="mm">Femenino
+
+			<!-- correo electronico-->
+			<label for="" class="formulario__label">Correo electronico: </label>
+			<input type="text" class="formulario__input-txt" name="">	
+
+			<!--Fecha de nacimiento-->
+			<label for="" class="formulario__label">Fecha de nacimiento: </label>
+			<input type="date" class="formulario__input-txt" name="">		
+
+			<!--Lugar de nacimiento-->
+			<label for="" class="formulario__label">Lugar de nacimiento: </label>
+			<input type="text" class="formulario__input-txt" name="">
+
+			<!--Estado civil-->
+			<label for="" class="formulario__label">Estado civil:</label>
+
+			<input type="radio" id="" value="soltero" name="estado-civil"/>Soltero
+			<input type="radio" id="" value="casado" name="estado-civil"/>Casado
+			<input type="radio" id="" value="otros" name="estado-civil"/>Otros
+
+			<!--Hijos-->
+			<label for="" class="formulario__label">Hijos: </label>
+			<input type="text" class="formulario__input-txt" name="">
+
+			<!--Domicilio-->
+			<label for="" class="formulario__label">Domicilio actual: </label>
+			<input type="text" class="formulario__input-txt" name="">
+
+			<!--Escolaridad-->
+			<label for="" class="formulario__label">Escolaridad:</label>
+
+			<input type="radio" id="" value="preparatoria" name="escolaridad"/>Preparatoria
+			<input type="radio" id="" value="bachillerato-tecnico" name="escolaridad"/>Bachillerato tecnico
+
+			<!-- Nombre institución-->
+			<label for="" class="formulario__label">Nombre de la institución: </label>
+			<input type="text" class="formulario__input-txt" name="">			
+
+			<!-- Becas anteriores-->
+			<label for="" class="formulario__label">Haz estado becado:</label>
+
+			<input type="radio" id="" value="menos18" name="becas_anteriores"/>Si
+			<input type="radio" id="" value="18a30" name="becas_anteriores"/>No
+
+			<!-- Opciones de becas-->
+			<label for="" class="formulario__label">Becas:</label>
+
+			<input type="radio" id="" value="gf" name="opciones_becas"/>Gobierno federal 
+			<input type="radio" id="" value="ge" name="opciones_becas"/>Gobierno estatal
+			<input type="radio" id="" value="eb" name="opciones_becas"/>Esfuerzos de bachillerato 
+
+			<!-- Transcurso de estudios -->
+			<label for="" class="formulario__label">En el transcurso de tus estudios viviras:</label>
+
+			<input type="radio" id="" value="familia" name="trans_estudios"/>Con mi familia
+			<input type="radio" id="" value="familia cercana" name="trans_estudios"/>Con familiares cercanos
+			<input type="radio" id="" value="estudiantes" name="trans_estudios"/>Con otros estudiantes
+			<input type="radio" id="" value="solo" name="trans_estudios"/>Solo
+
+			<!-- Trabajas -->
+			<label for="" class="formulario__label">Trabajas:</label>
+			<input type="radio" id="" value="si" name="trabajo"/>Si
+			<input type="radio" id="" value="no" name="trabajo"/>No
+
+			<!-- Información de la empresa -->
+			<label for="" class="formulario__label">Nombre de la empresa:</label>
+			<input type="text" class="formulario__input-txt" name="nombre_empresa">
+
+			<label for="" class="formulario__label">Horario:</label>
+			<input type="text" class="formulario__input-txt" name="horario">
+
+			<!-- Información escolar de los padres -->
+			<label for="" class="formulario__label">Maximo grado de escolaridad de:</label>
+
+			<label for="" class="formulario__label">Padre:</label>
+
+			<input type="radio" id="" value="primaria" name="escolaridad_padre"/>Primaria
+			<input type="radio" id="" value="secundaria" name="escolaridad_padre"/>Secundaria
+			<input type="radio" id="" value="preparatori<a" name="escolaridad_padre"/>Preparatoria
+			<input type="radio" id="" value="bachillerato tecnico" name="escolaridad_padre"/>Bachillerato Tec
+			<input type="radio" id="" value="licenciatura" name="escolaridad_padre"/>Licenciatura
+			<input type="radio" id="" value="posgrado" name="escolaridad_padre"/>Posgrado
+			<input type="radio" id="" value="sin estudios" name="escolaridad_padre"/>Sin estudios
+
+			<label for="" class="formulario__label">Madre:</label>
+
+			<input type="radio" id="" value="primaria" name="escolaridad_madre"/>Primaria
+			<input type="radio" id="" value="secundaria" name="escolaridad_madre"/>Secundaria
+			<input type="radio" id="" value="preparatoria" name="escolaridad_madre"/>Preparatoria
+			<input type="radio" id="" value="bachillerato tecnico" name="escolaridad_madre"/>Bachillerato Tec
+			<input type="radio" id="" value="licenciatura" name="escolaridad_madre"/>Licenciatura
+			<input type="radio" id="" value="posgrado" name="escolaridad_madre"/>Posgrado
+			<input type="radio" id="" value="sin estudios" name="escolaridad_madre"/>Sin estudios
+
+			<!-- Padres vivos o muertos ---> 
+			<label for="" class="formulario__label">Padre:</label>
+			<input type="radio" id="" value="vivo" name="estado_padre"/>Vive
+			<input type="radio" id="" value="finado" name="estado_padre"/>Finado
+
+			<label for="" class="formulario__label">Madre:</label>
+			<input type="radio" id="" value="viva" name="estado_madre"/>Vive
+			<input type="radio" id="" value="finada" name="estado_madre"/>Finada
+
+			<!-- Contacto de emergencia-->
+			<label for="" class="formulario__label">Nombre del lugar de trabajo del tutor:</label>
+			<input type="text" class="formulario__input-txt" name="empresa_tutor">
+			<label for="" class="formulario__label">En caso de accidente avisar a:</label>
+			<label for="" class="formulario__label">Nombre:</label>
+			<input type="text" class="formulario__input-txt" name="nombre_tutor">
+			<label for="" class="formulario__label">Telefono:</label>
+			<input type="text" class="formulario__input-txt" name="tel_tutor">
+
+			<input type="submit" class="btn formulario__btn" value="enviar">
+		</form>
+	</div>
+</body>
+</html>

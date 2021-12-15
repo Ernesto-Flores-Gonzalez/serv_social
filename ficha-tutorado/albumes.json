@@ -1,0 +1,24 @@
+{
+	"albumes": {
+		"305":{
+			"nombreAlbum": "Ashes of the wake",
+			"fechaLanzamiento":"2004/08/31",
+			"artista":"Lamb of god"
+		},
+		"306":{
+			"nombreAlbum": "Hail to the king",
+			"fechaLanzamiento":"2013/08/26",
+			"artista":"Avenged sevenfold"
+		},
+		"307":{
+			"nombreAlbum": "Turbo",
+			"fechaLanzamiento":"1989/04/14",
+			"artista":"Judas Priest"
+		},
+		"308":{
+			"nombreAlbum": "Multiviral",
+			"fechaLanzamiento":"2014/03/01",
+			"artista":"Calle 13"
+		}
+	}
+}
